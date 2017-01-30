@@ -15,6 +15,8 @@
 		C8DFC2F31E3FAD8D0098BE2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8DFC2F11E3FAD8D0098BE2B /* LaunchScreen.storyboard */; };
 		C8DFC2FE1E3FAD8D0098BE2B /* GithubRepoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DFC2FD1E3FAD8D0098BE2B /* GithubRepoTests.m */; };
 		C8DFC3091E3FAD8D0098BE2B /* GithubRepoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DFC3081E3FAD8D0098BE2B /* GithubRepoUITests.m */; };
+		C8DFC3181E3FB53B0098BE2B /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DFC3171E3FB53B0098BE2B /* TableViewCell.m */; };
+		C8DFC31B1E3FB8B50098BE2B /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DFC31A1E3FB8B50098BE2B /* Repo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C8DFC3041E3FAD8D0098BE2B /* GithubRepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubRepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DFC3081E3FAD8D0098BE2B /* GithubRepoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubRepoUITests.m; sourceTree = "<group>"; };
 		C8DFC30A1E3FAD8D0098BE2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8DFC3161E3FB53B0098BE2B /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		C8DFC3171E3FB53B0098BE2B /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		C8DFC3191E3FB8B50098BE2B /* Repo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		C8DFC31A1E3FB8B50098BE2B /* Repo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				C8DFC2E71E3FAD8D0098BE2B /* AppDelegate.m */,
 				C8DFC2E91E3FAD8D0098BE2B /* ViewController.h */,
 				C8DFC2EA1E3FAD8D0098BE2B /* ViewController.m */,
+				C8DFC3161E3FB53B0098BE2B /* TableViewCell.h */,
+				C8DFC3171E3FB53B0098BE2B /* TableViewCell.m */,
+				C8DFC3191E3FB8B50098BE2B /* Repo.h */,
+				C8DFC31A1E3FB8B50098BE2B /* Repo.m */,
 				C8DFC2EC1E3FAD8D0098BE2B /* Main.storyboard */,
 				C8DFC2EF1E3FAD8D0098BE2B /* Assets.xcassets */,
 				C8DFC2F11E3FAD8D0098BE2B /* LaunchScreen.storyboard */,
@@ -273,7 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8DFC31B1E3FB8B50098BE2B /* Repo.m in Sources */,
 				C8DFC2EB1E3FAD8D0098BE2B /* ViewController.m in Sources */,
+				C8DFC3181E3FB53B0098BE2B /* TableViewCell.m in Sources */,
 				C8DFC2E81E3FAD8D0098BE2B /* AppDelegate.m in Sources */,
 				C8DFC2E51E3FAD8D0098BE2B /* main.m in Sources */,
 			);
